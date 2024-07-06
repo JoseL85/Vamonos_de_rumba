@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #000000;
+    
 }
 
 .navbar {
@@ -131,6 +133,43 @@ body {
     right: 10px;
 }
 
+#Inicio{
+    display: grid;
+    margin-bottom: 300px;
+    margin-top: 100px;
+    grid-template-columns: repeat(1, 800px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.Inicio2{
+    height: 145px;
+    grid-template-columns: repeat(1, 500px);
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+.Inicio2 h1{
+
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.Inicio2 p{
+    color: #FFF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
 @media (max-width: 600px) {
     .prev, .next {
         font-size: 14px;
