@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/QuienesSomos.css" />
+    <link rel="stylesheet" href="css/CarruselDeImagenes.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <title>Vamonos de Rumba !!</title>
 </head>
 <body>
     <header> <!-- Princiopio de Header-->
-
-        <nav class="navbar">
-
-            <img class="svg_logo" src="img/logo.svg" alt="Descripción del SVG">
+        <nav class="nav">
+            <div class="navicon open">
+                <a href="index.html">
+                    <img class="logo" src="img/logo.svg" alt="Descripción del SVG">
+                </a>
+                <div></div>
+            </div>
             
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li id="miembros" class="dropdown">
-                    <a id="miembros">Miembros ▼</a>
-                    <div class="dropdown-content">
-                        <a href="#restaurants">Restaurantes</a>
-                        <a href="#bars">Bares</a>
-                        <a href="#clubs">Discotecas</a>
-                    </div>
-                </li>
-                <li><a href="#eventos">Eventos</a></li>
-                <li><a href="#anunciate">Anúnciate</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+            <ul class="navigation open">
+                <li class="nav-ul-li"><a class="nav-ul-li-a" href="">Inicio</a></li>
+                <li class="nav-ul-li"><a id="miembros" class="nav-ul-li-a" href="">▼ Miembros</a></li>
+                <li class="nav-ul-li"><a class="nav-ul-li-a" href="">Eventos</a></li>
+                <li class="nav-ul-li"><a class="nav-ul-li-a" href="">Anúnciate</a></li>
+                <li class="nav-ul-li"><a class="nav-ul-li-a" href="">Contacto</a></li>
+                <div>
+                <a class="button" href="index.html">● En Vivo</a>
+                </div>
             </ul>
+            
+            
         </nav>
-
-    </header>
-
+        
     <main> <!-- Princiopio de Section-->
         <div class="carousel">
             <div class="carousel-inner">
@@ -76,6 +77,7 @@
     <footer> <!-- Princiopio de Footer-->
         
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/CarruselDeImagenes.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
