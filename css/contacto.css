@@ -1,0 +1,174 @@
+section .contenedor_contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 340px);
+    gap: 166px;
+    justify-content: center;
+    align-content: space-around;
+    justify-items: center;
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  section .contenedor_contacto .info_contacto {
+    color: #000000;
+  }
+  section .contenedor_contacto .info_contacto h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  section .contenedor_contacto .info_contacto h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  section .contenedor_contacto .info_contacto p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  }
+  section .contenedor_contacto .info_contacto #parrafo {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+  }
+  section .contenedor_contacto .info_contacto #parrafo2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+  }
+  section .contenedor_contacto form {
+    margin: 0 auto;
+    width: 400px;
+  }
+  section .contenedor_contacto form label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+  section .contenedor_contacto form input, section .contenedor_contacto form textarea {
+    width: 341px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 1em;
+    border: 2px solid #292929;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #383838;
+  }
+  section .contenedor_contacto form textarea {
+    height: 150px;
+  }
+  section .contenedor_contacto form #submit {
+    background-color:  #FF067E;
+    color: #c5c5c5;
+    border-radius: 1em;
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  section .contenedor_contacto form #submit:hover {
+    background-color: rgb(179, 179, 179);
+    transition: all 0.5s;
+    box-shadow: 0px 0px 10px 10px rgb(34, 34, 34);
+    background-blend-mode: multiply;
+  }
+
+@media screen and (max-width: 1024px) {
+    section .contenedor_contacto {
+        grid-template-columns: repeat(2, 376px);
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+      }
+      section .contenedor {
+        background-color: white;
+        padding-top: 10%;
+      }
+      section .contenedor h1 {
+        margin-top: -35%;
+        left: 5%;
+        font-size: 50px;
+        font-weight: bold;
+        color: #17181C;
+      }
+      section .contenedor h2 {
+        margin-top: -55%;
+        left: 5%;
+        padding-top: 28%;
+        font-size: 35px;
+      }
+
+      section .contenedor2 { /* CONTENEDOR DE TEXTO  */
+        grid-template-columns: repeat(1, 647px);
+        padding-bottom: 100px;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    section .contenedor_contacto {
+        grid-template-columns: repeat(1, 430px);
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+      }
+      section .contenedor_contacto .info_contacto h3 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      section .contenedor_contacto .info_contacto h4 {
+        margin-top: 15px;
+        margin-bottom: 0px;
+      }
+      section .contenedor_contacto .info_contacto p {
+        margin-top: 6px;
+      }
+      section .contenedor_contacto #parrafo {
+        margin-top: 6px;
+      }
+      section .contenedor_contacto #parrafo2 {
+        margin-top: 6px;
+      }
+      section .contenedor_contacto .principal {
+        width: 510px;
+      }
+      section .contenedor_contacto form {
+        margin: 0 auto;
+        width: 80%;
+      }
+      section .contenedor_contacto input {
+        width: 140px;
+        height: 10px;
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 10px;
+      }
+      section .contenedor_contacto textarea {
+        height: 50px;
+      }
+      section .contenedor_contacto #submit {
+        font-size: 8px;
+        width: 60px;
+        height: 27px;
+        margin-top: 10px;
+        margin-left: 2px;
+      }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 310px) {
+
+}
