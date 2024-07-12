@@ -73,8 +73,8 @@ section .contenedor_contacto {
     width: 100px;
     height: 35px;
     border: none;
-    margin-left: 10px;
-    margin-top: 40px;
+    margin-left: 0px;
+    margin-top: 20px;
     cursor: pointer;
   }
   section .contenedor_contacto form #submit:hover {
