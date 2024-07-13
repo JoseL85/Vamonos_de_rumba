@@ -67,7 +67,7 @@ section .contenedor_contacto {
   }
   section .contenedor_contacto form #submit {
     background-color:  #FF067E;
-    color: #c5c5c5;
+    color: #ffffff;
     border-radius: 1em;
     font-size: 13px;
     width: 100px;
@@ -78,9 +78,9 @@ section .contenedor_contacto {
     cursor: pointer;
   }
   section .contenedor_contacto form #submit:hover {
-    background-color: rgb(179, 179, 179);
+    background-color: #ff68b1;
     transition: all 0.5s;
-    box-shadow: 0px 0px 10px 10px rgb(34, 34, 34);
+    box-shadow: 0px 0px 10px 2px #FF067E;
     background-blend-mode: multiply;
   }
 
