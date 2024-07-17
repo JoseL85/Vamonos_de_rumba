@@ -1,9 +1,7 @@
 .anunciate{
-    display: grid;
+    display: flex;
     align-items:center ;
     justify-content: center;
-    margin-right: 50%;
-    margin-left: 50%;
 }
 .anunciate img{
     height: 100%;
@@ -11,7 +9,7 @@
     max-width: 700px;
 }
 
-.anunciate p{
+#anunciate2{
     color: rgb(255, 255, 255);
     font-size: 20px;
     margin-bottom: 10%;
@@ -33,7 +31,7 @@
 }@media screen and (max-width: 480px) {
 
     .anunciate img{
-        height: 270px;
+        height: 230px;
 
     }
 
@@ -41,7 +39,7 @@
 
 @media screen and (max-width: 310px) {
     .anunciate img{
-        height: 170px;
+        height: 150px;
 
     }
 }
