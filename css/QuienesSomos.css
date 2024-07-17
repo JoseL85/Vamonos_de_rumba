@@ -16,7 +16,7 @@ body {
 #Inicio{
     display: grid;
     margin-bottom: 5%;
-    margin-top: 5%;
+    padding-top: 5%;
     grid-template-columns: repeat(1, 800px);
     gap: 10px;
     justify-content: center;
