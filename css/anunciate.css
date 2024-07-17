@@ -1,0 +1,17 @@
+.anunciate{
+    display: grid;
+    align-items:center ;
+    justify-content: center;
+}
+.anunciate img{
+    height: 525px;;
+    margin-bottom: 20px;
+}
+
+.anunciate p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10%;
+}
+@media screen and (max-width: 768px) {
+
+}
