@@ -129,6 +129,11 @@ section .contenedor_contacto {
         padding-bottom: 100px;
 
     }
+    .contacto h2{
+
+      font-size: 54px;
+
+  }
 }
 @media screen and (max-width: 768px) {
     section .contenedor_contacto {
@@ -178,6 +183,11 @@ section .contenedor_contacto {
         margin-top: 10px;
         margin-left: 2px;
       }
+      .contacto h2{
+
+        font-size: 44px;
+  
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -237,6 +247,11 @@ section .contenedor_contacto {
     margin-top: 10px;
     margin-left: 2px;
   }
+  .contacto h2{
+
+    font-size: 34px;
+
+}
 }
 
 @media only screen and (max-width: 310px) {
